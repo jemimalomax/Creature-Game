@@ -50,9 +50,7 @@ def newGeneration(old_population):
     #initialise fitness array for all of the old population
     fitness = np.zeros((N))
 
-    # This loop iterates over your agents in the old population - the purpose of this boiler plate
-    # code is to demonstrate how to fetch information from the old_population in order
-    # to score fitness of each agent
+
     #iterate over old population and append to the fitness array based on a fitness function that gives a score to each creature
     for n, creature in enumerate(old_population):
 
